@@ -1,0 +1,26 @@
+public class Main {
+    public static void main(String[] args) {
+
+        CursoTecnico tecnico = new CursoTecnico(
+                1, null, 1200, 2,
+                null, null, null,
+                null, 200
+        );
+
+        Graduacao graduacao = new Graduacao(
+                2, null, 3600, 5,
+                null, null, null,
+                null, true
+        );
+
+        PosGraduacao pos = new PosGraduacao(
+                3, null, 400, 1,
+                null, null, null,
+                null, null
+        );
+
+        tecnico.verificarEstagio();
+        graduacao.validarTCC();
+        pos.validarDissertacao();
+    }
+}
