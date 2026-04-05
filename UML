@@ -1,0 +1,32 @@
+/*
+
+Características de herança (da classe Curso):
+código 
+nome 
+chTotal
+duração
+tipo de duração
+modalidade
+status
+
+obterDisciplinas() 
+obterAlunosAtivos()
+obterEgressos() 
+
+Características específicas de cada classe:
+
+Curso técnico:Pós graduação:
+Tipo
+ eixoTec 
+ chEstagio
+ verificarEstagio()
+
+Graduação:
+tipo
+tccObrigatorio
+validarTCC();
+
+
+areaPesquisa
+validarDisertacao()
+*/
