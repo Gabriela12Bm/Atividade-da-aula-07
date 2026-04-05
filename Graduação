@@ -9,9 +9,15 @@ public class Graduacao extends Curso {
         this.tccObrigatorio = tccObrigatorio;
     }
 
+
+
+System.out.println("TCC obrigatorio? 0 pra não, 1 pra sim");
+
     public void validarTCC() {
-        if (tccObrigatorio) {
+        if (tccObrigatorio > 0) {
+System.out.println("Tcc obrigatorio");
         } else {
+System.out.println("Tcc nao obrigatorio");
         }
     }
 }
