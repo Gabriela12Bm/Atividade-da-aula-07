@@ -1,3 +1,28 @@
+Curso
+-codigo:int
+-nome:String
+-chTotal:int
+-duracao:int
+-tipoDuracao:String
+-modalidade:String
+-status:String
++getDisciplinas():void
++getAlunosAtivos():void
++getEgressos():void
+
+CursoTecnico
+-eixoTecnologico:String
+-chEstagio:int
++verificarEstagio():void
+
+Graduacao
+-tipo:String
+-tccObrigatorio:int
++validarTCC():void
+
+Main
++main(String[]args):void
+
 /*
 
 Características de herança (da classe Curso):
