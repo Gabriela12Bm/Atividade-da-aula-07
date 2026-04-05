@@ -1,0 +1,30 @@
+public abstract class Curso {
+
+    private int codigo;
+    private String nome;
+    private chTotal;
+    private int duracao;
+    private String tipoDuracao;
+    private String modalidade;
+    private String status;
+
+    public Curso(int codigo, String nome, int chTotal, int duracao,
+                 String tipoDuracao, String modalidade, String status) {
+        this.codigo = codigo;
+        this.nome = nome;
+        this.chTotal = chTotal;
+        this.duracao = duracao;
+        this.tipoDuracao = tipoDuracao;
+        this.modalidade = modalidade;
+        this.status = status;
+    }
+
+    public void getDisciplinas() {
+    }
+
+    public void getAlunosAtivos() {
+    }
+
+    public void getEgressos() {
+    }
+}
