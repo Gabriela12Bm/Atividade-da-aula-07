@@ -1,0 +1,17 @@
+public class CursoTecnico extends Curso {
+
+    private String eixoTecnologico;
+    private int chEstagio;
+
+    public CursoTecnico(int codigo, String nome, int chTotal, int duracao, String tipoDuracao, String modalidade, String status, String eixoTecnologico, int chEstagio) {
+        super(codigo, nome, chTotal, duracao, tipoDuracao, modalidade, status);
+        this.eixoTecnologico = eixoTecnologico;
+        this.chEstagio = chEstagio;
+    }
+
+    public void verificarEstagio() {
+        if (chEstagio > 0) {
+        } else {
+        }
+    }
+}
