@@ -9,9 +9,13 @@ public class CursoTecnico extends Curso {
         this.chEstagio = chEstagio;
     }
 
+System.out.println("Estagio obrigatorio? 0 pra não, 1 pra sim");
+
     public void verificarEstagio() {
         if (chEstagio > 0) {
+System.out.println("Estagio obrigatorio");
         } else {
+System.out.println("Estagio não obrigatorio");
         }
     }
 }
