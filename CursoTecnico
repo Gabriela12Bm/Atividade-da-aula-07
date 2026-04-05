@@ -10,7 +10,7 @@ public class CursoTecnico extends Curso {
     }
 
 System.out.println("Estagio obrigatorio? 0 pra não, 1 pra sim");
-
+chEstagio = entrada.nextInt();
     public void verificarEstagio() {
         if (chEstagio > 0) {
 System.out.println("Estagio obrigatorio");
