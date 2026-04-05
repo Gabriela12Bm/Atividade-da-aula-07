@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
+Scanner entrada = new Scanner(System.in);
+
         CursoTecnico tecnico = new CursoTecnico(
                 1, null, 1200, 2,
                 null, null, null,
