@@ -8,15 +8,15 @@ public abstract class Curso {
     private String modalidade;
     private String status;
 
-    public Curso(int codigo, String nome, int chTotal, int duracao,
-                 String tipoDuracao, String modalidade, String status) {
-        this.codigo = codigo;
-        this.nome = nome;
-        this.chTotal = chTotal;
-        this.duracao = duracao;
-        this.tipoDuracao = tipoDuracao;
-        this.modalidade = modalidade;
-        this.status = status;
+    public Curso(int _codigo, String _nome, int _chTotal, int _duracao,
+                 String _tipoDuracao, String _modalidade, String _status) {
+        codigo = _codigo;
+        nome = _nome;
+        chTotal = _chTotal;
+        duracao = _duracao;
+        tipoDuracao = _tipoDuracao;
+        modalidade = _modalidade;
+        status = _status;
     }
 
     public void getDisciplinas() {
